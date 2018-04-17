@@ -1,9 +1,14 @@
 <template>
-  <div class="matches">
-          <div v-bind:key="match.matches" v-for="match in data.matches" class="FullGameInfoCard">
-          <!-- <img class="icon" src="../../static/greenflag.png"/> -->
-        <p class="game-id">Name: {{ match.id }}</p>
-
+<div class="matches">
+<div v-bind:key="match.matches" v-for="match in data.matches" class="test">
+<!-- <img class="icon" src="../../static/greenflag.png"/> -->
+<p class="test">Name: {{ match.id }}</p>
+<p class="test">Date: {{ match.date }}</p>
+<p class="test">Home: {{ match.home }}</p>
+<p class="test">Away: {{ match.away }}</p>
+<p class="test">Score: {{ match.score }}</p>
+<p class="test">Series: {{ match.series }}</p>
+<br>
        </div>
       </div>
   </div>
