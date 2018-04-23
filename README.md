@@ -3,3 +3,9 @@
 RSL CLARET RED HEX COLOR: #B30838; RGB: (179, 8, 56) COBALT BLUE  HEX COLOR: #013A81;  RGB: (1, 58, 129) REAL GOLD  HEX COLOR: #F5E700;  RGB: (245, 231, 0)
 
 COR BURGUNDY PANTONE: 202 HEX COLOR: #862633; RGB: (134, 38, 51) CMYK: (9,100,64,48) SKY BLUE PANTONE: 278 HEX COLOR: #8BB8E8; RGB: (139, 184, 232) CMYK: (45,14,0,0) SILVER HEX COLOR: #8D9093; RGB: (141,144,147)
+
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'Chivo', sans-serif;
+font-family: 'Kreon', serif;
+font-family: 'Barlow Condensed', sans-serif;

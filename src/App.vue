@@ -1,17 +1,20 @@
 <template>
   <div id="app">
+    <Header/>
     <!-- <img src="./assets/logo.png"> -->
-    <Matches/>
+    <!-- <Matches/> -->
     <!-- <router-view/> -->
   </div>
 </template>
 
 <script>
+import Header from '@/components/Header'
 import Matches from '@/components/Matches'
 
 export default {
   name: 'App',
   components: {
+    Header,
   Matches
   }
 }
@@ -47,6 +50,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  background-color: #4D3F3F;
+  color:#222;
 }
 ol, ul {
 	list-style: none;
