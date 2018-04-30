@@ -1,8 +1,7 @@
 <template>
         <div>
             <p>{{goal.club}}</p>
-               <p>{{goal.player}}</p>
-            <!-- <img :src='game.image'> -->
+            <p>{{goal.player}}</p>
         </div>
 </template>
 

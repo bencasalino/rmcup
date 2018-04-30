@@ -1,11 +1,24 @@
 <template>
-	<GoalsWrapper/>
-    <!-- <router-view/> -->
+<div>
+	    <!-- <router-view/> -->
+		<a>
+		<router-link :to="{name: 'GoalsWrapper'}">TEST
+		</router-link>
+		<br>
+		<div>
+						    <router-view/>
+		</div>
+		</a>
+</div>
+
+
+
 
 </template>
 
 <script>
 import GoalsWrapper from '@/components/GoalsWrapper'
+// import Goals from '@/components/Goals'
 
 export default {
   name: 'App',
@@ -14,6 +27,8 @@ export default {
   	// Goals
   }
 }
+
+
 
 </script>
 

@@ -13,7 +13,7 @@ export default new Router({
     //   component: Default
     // },
     {
-      path: '/',
+      path: '/GoalsWrapper',
       name: 'GoalsWrapper',
       component: GoalsWrapper
     }
