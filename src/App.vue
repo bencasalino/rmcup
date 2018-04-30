@@ -1,28 +1,23 @@
 <template>
   <div id="app">
-    <Header/>
-    <!-- <img src="./assets/logo.png"> -->
-    <!-- <Matches/> -->
     <!-- <router-view/> -->
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header'
-import Matches from '@/components/Matches'
+import GoalsWrapper from '@/components/GoalsWrapper'
 
 export default {
   name: 'App',
   components: {
-    Header,
-  Matches
+    GoalsWrapper,
+  	// Goals
   }
 }
 
 </script>
 
 <style>
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
   background-color: #4D3F3F;
-  color:#222;
+  color:#aaa;
 }
 ol, ul {
 	list-style: none;
