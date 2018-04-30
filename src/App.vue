@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+	<GoalsWrapper/>
     <!-- <router-view/> -->
-  </div>
+
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import Header from '@/components/Header'
-// import Matches from '@/components/Matches'
+// import Default from '@/components/Default'
+import GoalsWrapper from '@/components/GoalsWrapper'
 
 Vue.use(Router)
 
@@ -9,13 +9,13 @@ export default new Router({
   routes: [
     // {
     //   path: '/',
-    //   name: 'Header',
-    //   component: Header
-    // }
-    // {
-    //   path: '/',
-    //   name: 'Matches',
-    //   component: Matches
-    // }
+    //   name: 'Default',
+    //   component: Default
+    // },
+    {
+      path: '/',
+      name: 'GoalsWrapper',
+      component: GoalsWrapper
+    }
   ]
 })
