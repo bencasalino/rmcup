@@ -1,33 +1,31 @@
 <template>
-<div>
-		<a>
-		<router-link :to="{name: 'Goals'}">Goals
-		</router-link>
-		</a>
-		<br>
-				<a>
-		<router-link :to="{name: 'Shutouts'}">Shutouts
-		</router-link>
-		</a>
-		<br>
+<div id="mainapp-wrapper">
+<div class="cta-row">
 
-				<a>
-		<router-link :to="{name: 'Matches'}">Matches
+		<router-link :to="{name: 'Matches'}"  class="btn">
+				<a> Matches </a>
 		</router-link>
-		</a>
-		<br>
-
-				<a>
-		<router-link :to="{name: 'Champions'}">Champions
+				<router-link :to="{name: 'Champions'}"  class="btn">
+				<a> Champions </a>
 		</router-link>
-		</a>
-		<br>
-		<br>
+				<router-link :to="{name: 'Goals'}"  class="btn">
+				<a> Goals  </a>
+		</router-link>
+				<router-link :to="{name: 'Shutouts'}"  class="btn">
+				<a> Shutouts </a>
+		</router-link>
 
+
+
+
+		<!-- lsdkflsd -->
+		<br>
+		<br>
+			</div>
+<!-- // router view  -->
 		<div>
 				<router-view/>
 		</div>
-		</a>
 </div>
 
 
@@ -97,5 +95,29 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+/* //  */
+
+
+.cta-row  {
+display: flex;
+}
+
+.btn  {
+/* height: 30px; */
+min-width: 25vw;
+max-width: 25vw;
+text-align: center;
+background: red;
+font-size: 12px;
+padding: 10px 2px 10px 2px;
+font-weight: 900;
+text-decoration: none;
+cursor: pointer;
+border: 2px solid blue;
+box-sizing: border-box;
+position: sticky;
 }
 </style>

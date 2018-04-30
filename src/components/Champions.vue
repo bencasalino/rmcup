@@ -1,9 +1,24 @@
 <template>
-  <div>
-      <div v-for="goal in data.champions" :key="goal.champions">
-      <p>{{goal.year}}</p>
-      </div>
-  </div>
+<table class="zebra">
+<thead>
+<tr>
+    <th>YEAR</th>
+    <th>WINNER</th>
+    <th>LOSER</th>
+    <th>POINTS</th>
+    <th>SERIES</th>
+</tr>
+</thead>
+<tbody>
+<tr v-for="goal in data.champions" :key="goal.champions">
+  <td>{{goal.year}}</td>
+  <td>{{goal.winner}}</td>
+  <td>{{goal.loser}}</td>
+  <td>{{goal.points}}</td>
+  <td>{{goal.series}}</td>
+</tr>
+</tbody>
+</table>
 </template>
 
 <script>
@@ -38,5 +53,15 @@
 </script>
 
 <style scoped>
+
+table {
+  border-collapse: collapse;
+  width: 50vw;
+}
+th, td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
 
 </style>
