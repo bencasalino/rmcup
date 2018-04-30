@@ -1,21 +1,18 @@
 <template>
   <div>
-      <div v-for="goal in data.goals" :key="goal.goals">
-         <p>{{goal.club}}</p>
-            <p>{{goal.player}}</p>
-
-
+      <div v-for="goal in data.shutouts" :key="goal.shutouts">
+      <p>{{goal.player}}</p>
       </div>
   </div>
 </template>
 
 <script>
-  import GoalsWrapper from '@/components/GoalsWrapper';
+  import Shutouts from '@/components/Shutouts';
 
   export default {
-    name: 'GoalsWrapper',
+    name: 'Shutouts',
     components: {
-      GoalsWrapper
+      Shutouts
       },
 
       data () {
@@ -29,14 +26,14 @@
     methods: {
     load () {
       // fetch('http://rmcup.herokuapp.com/goals')
-            fetch('http://localhost:3000/goals')
+            fetch('http://localhost:3000/shutouts')
         .then(res => res.json())
         .then(data => {
           this.data = data
           console.log(data);
         })
     }
-  },
+    },
   };
 </script>
 

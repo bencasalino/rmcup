@@ -1,7 +1,6 @@
 <template>
 <div class="matches">
 <div v-bind:key="match.matches" v-for="match in data.matches" class="test">
-<!-- <img class="icon" src="../../static/greenflag.png"/> -->
 <p class="test">Name: {{ match.id }}</p>
 <p class="test">Date: {{ match.date }}</p>
 <p class="test">Home: {{ match.home }}</p>
@@ -11,7 +10,6 @@
 <br>
        </div>
       </div>
-  </div>
 </template>
 
 

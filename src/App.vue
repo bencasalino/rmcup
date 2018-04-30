@@ -1,12 +1,31 @@
 <template>
 <div>
-	    <!-- <router-view/> -->
 		<a>
-		<router-link :to="{name: 'GoalsWrapper'}">TEST
+		<router-link :to="{name: 'Goals'}">Goals
 		</router-link>
+		</a>
 		<br>
+				<a>
+		<router-link :to="{name: 'Shutouts'}">Shutouts
+		</router-link>
+		</a>
+		<br>
+
+				<a>
+		<router-link :to="{name: 'Matches'}">Matches
+		</router-link>
+		</a>
+		<br>
+
+				<a>
+		<router-link :to="{name: 'Champions'}">Champions
+		</router-link>
+		</a>
+		<br>
+		<br>
+
 		<div>
-						    <router-view/>
+				<router-view/>
 		</div>
 		</a>
 </div>
@@ -17,19 +36,20 @@
 </template>
 
 <script>
-import GoalsWrapper from '@/components/GoalsWrapper'
-// import Goals from '@/components/Goals'
+import Goals from '@/components/Goals'
+import Shutouts from '@/components/Shutouts'
+import Matches from '@/components/Matches'
+import Champions from '@/components/Champions'
 
 export default {
   name: 'App',
   components: {
-    GoalsWrapper,
-  	// Goals
+		Goals,
+		Champions,
+		Shutouts,
+		Matches
   }
 }
-
-
-
 </script>
 
 <style>

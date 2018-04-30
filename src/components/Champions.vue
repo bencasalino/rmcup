@@ -1,17 +1,20 @@
 <template>
   <div>
-      <div v-for="goal in data.goals" :key="goal.goals">
-      <p>{{goal.club}}</p>
-      <p>{{goal.player}}</p>
+      <div v-for="goal in data.champions" :key="goal.champions">
+      <p>{{goal.year}}</p>
       </div>
   </div>
 </template>
 
 <script>
-  import Goals from '@/components/Goals';
+  import Champions from '@/components/Champions';
 
   export default {
-    name: 'Goals',
+    name: 'Champions',
+    components: {
+      Champions
+      },
+
       data () {
     return {
       data: []
@@ -23,7 +26,7 @@
     methods: {
     load () {
       // fetch('http://rmcup.herokuapp.com/goals')
-            fetch('http://localhost:3000/goals')
+            fetch('http://localhost:3000/champions')
         .then(res => res.json())
         .then(data => {
           this.data = data
