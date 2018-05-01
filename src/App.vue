@@ -47,7 +47,8 @@ export default {
 		Champions,
 		Shutouts,
 		Matches,
-Section, Footer
+		Section,
+		Footer
   }
 }
 </script>
