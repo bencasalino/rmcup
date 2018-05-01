@@ -1,8 +1,6 @@
 <template>
 	<div id="mainapp-wrapper">
-
 	<Bg/>
-
 	<div class="hmm">
 					<div class="split-col">
 						<div class="split-flex">
@@ -19,10 +17,7 @@
 						<Matches/>
 					</div>
 	</div>
-	<!-- <div>
-		<Section/>
-	</div> -->
-
+<Footer/>
 	</div>
 </template>
 
@@ -39,8 +34,10 @@ import Goals from '@/components/Goals'
 import Shutouts from '@/components/Shutouts'
 
 // router about links
-
 import Section from '@/components/Section'
+
+//
+import Footer from '@/components/Footer'
 
 export default {
   name: 'App',
@@ -50,7 +47,7 @@ export default {
 		Champions,
 		Shutouts,
 		Matches,
-Section
+Section, Footer
   }
 }
 </script>
