@@ -1,20 +1,34 @@
 <template>
 <div class="history-wrapper">
-<p class="label"> ABOUT THE CUP</p>
+<p class="label"> HISTORY & FORMATION</p>
 <br>
-<p>When it was officially announced that Salt Lake City would be awarded an MLS expansion club, fans from Utah and Colorado founded the bi-partisan Committee of 10 (5 supporters from each club) and began to outline the official rules of the competition. The contest was named the Rocky Mountain Cup after a vote from the fans, and a trophy was acquired.</p>
+<p>When it was officially announced that Salt Lake City would be awarded an MLS expansion club, fans from Utah and Colorado founded the bi-partisan  <span class="emp"> Committee of 10</span>
+
+  <span class="slant">
+  (5 supporters from each club)
+  </span>
+   and began to outline the official rules of the competition. The contest was named the Rocky Mountain Cup after a vote from the fans, and a trophy was acquired.</p>
 <br>
-<p class="label"> FORMATION | C10</p>
-<br>
+<p class="label2"> FORMATION | C10</p>
 <p>
-The Committee of 10, or C10, was initially formed through discussions between fans from both Real Salt Lake and the Colorado Rapids on BigSoccer.com and on the now defunct fan forums at RealSaltLake.org. It was decided that each team's fans would be represented by five individuals per side. These representatives would be responsible for creating the guidelines, design, and ultimately raising the funds to create the Rocky Mountain Cup.
+ <span class="emp"> Committee of 10</span>, or C10, was initially formed through discussions between fans from both <a href=""> Real Salt Lake</a> and the <a href="">Colorado Rapids</a>  on
+<a href="">BigSoccer.com</a>
+
+ and on the now defunct fan forums at
+ <a href="">RealSaltLake.org.</a>
+ .
+  It was decided that each team's fans would be represented by five individuals per side.
+  <br>
+  <br>
+   These representatives would be responsible for creating the guidelines, design, and ultimately raising the funds to create the <span class="emp"> Rocky Mountain Cup</span>
 </p>
 <br><br>
-<p class="committee">
-The Original Committee of 10
+<p class="label2">
+THE ORIGINAL COMMOTTEE OF 10
 </p>
-<br>
-<p class="committee"><span class="com-col">COL:</span>
+<p class="committee"><span class="com-col">
+  <img class="icon" src="/../../static/col.svg">
+  COL:</span>
 Jason Maxwell* |
 Mark Bodmer |
 Bill Fisher |
@@ -22,7 +36,7 @@ Bill Fisher |
   	Jason Greene
 </p>
 <br>
-<p class="committee"><span class="com-rsl">RSL:</span> Gary Hadley | Juliana Montgomery
+<p class="committee"><span class="com-rsl">   <img class="icon" src="/../../static/rsl.svg">RSL:</span> Gary Hadley | Juliana Montgomery
 |
 Eric Roberts
 |
@@ -31,7 +45,7 @@ Glenn Webb
 Neil Wyler
 </p>
 <br>
-<p class="committee">*Original Chairman</p>
+<p class="label2">*ORIGINAL CHAIRMAN</p>
   </div>
 </template>
 
@@ -43,12 +57,14 @@ Neil Wyler
 
 <style scoped>
 .history-wrapper {
-  letter-spacing: .4px;
   font-weight: 400;
-  font-family: 'Kreon', serif;
+  font-family: 'Chivo', serif;
   	max-width: 56vw;
-    	padding: 20px;
+    padding-top: 20px;
+     padding-left: 20px;
+      padding-right: 20px;
 	margin: 20px;
+          font-size: 14px;
   min-height: 400px;
   background: #A4A19B;
   color: #222;
@@ -57,12 +73,22 @@ Neil Wyler
 0px 20px 20px rgba(0,0,0,0.05),
 0px 30px 20px rgba(0,0,0,0.05);
 border-bottom: 4px #9B9487 solid;
+border-top: 4px #9B9487 solid;
+box-sizing: content-box;
 }
 
 .label {
   font-weight: 400;
-  font-family: 'Kreon', serif;
+  font-family: 'Chivo', serif;
   font-size: 20px;
+}
+
+.label2 {
+  font-weight: 400;
+  font-family: 'Chivo', serif;
+  font-size: 12px;
+  /* border-bottom: 4px #9B9487 solid; */
+      padding-bottom: 10px;
 }
 .committee {
     font-size: 12px;
@@ -77,5 +103,30 @@ border-bottom: 4px #9B9487 solid;
       font-weight: 900;
   color: #862633;
 }
+.emp {
+  font-weight: 800;
+  font-family: 'Chivo', serif;
+  /* font-style:oblique; */
+}
+.slant {
+  font-weight: 400;
+  font-family: 'Chivo', serif;
+  font-style: italic;
+}
+ a {
+   text-decoration: none;
+ }
+ .icon {
+   /* border-radius: 5px; */
+     /* box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+0px 10px 20px rgba(0,0,0,0.05),
+0px 20px 20px rgba(0,0,0,0.05),
+0px 30px 20px rgba(0,0,0,0.05); */
+max-height: 30px;
+min-height: 20px;
+max-width: 20px;
+min-width: 20px;
+margin-left: 2px;
+ }
 
 </style>
