@@ -54,19 +54,21 @@ export default {
 </script>
 <style scoped>
 #matches {
-    border-left:  2px solid #00cccc;
+  box-sizing: border-box;
+  min-width: 100%;
+border-left:  5px solid #666;
 padding-left:12px;
 padding-bottom:12px;
 padding-right:12px;
-
-margin-left:12px;
-margin-bottom:12px;
-margin-right:12px;
+background: #444;
+/* margin-left:12px;
+margin-bottom:12px; */
+margin-left:22px;
 }
 table {
     border-collapse: collapse;
   border: 1px solid #eee;
-  border-bottom: 2px solid #00cccc;
+  border-bottom: 2px solid #9B9487;
   font-family: 'Kreon', serif;
   border-collapse: collapse;
   width: 100%;
@@ -88,13 +90,15 @@ th {
   background: #333;
 font-size: 10px;
 color: #A4A19B;
-  border-bottom: 2px solid #00cccc;
+  border-bottom: 2px solid #9B9487;
 }
 h1 {
+  padding:5px 10px;
       color: #A4A19B;
           font-weight: 400;
           font-family: 'Kreon', serif;
           text-align: center;
+                 padding:5px 10px;
 }
 table tr:hover {
   background: #f4f4f4;

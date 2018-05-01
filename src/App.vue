@@ -1,14 +1,24 @@
 <template>
 	<div id="mainapp-wrapper">
+
 	<Bg/>
-		<div class="split-flex">
-					<SubHeader/><Matches/>
-					<!-- router view -->
-		</div>
-		<div class="split-flex">
-					<Section/>
-					<!-- router view -->
-		</div>
+
+	<div class="hmm">
+					<div class="split-col">
+						<div class="split-flex">
+							<Goals/>
+							<Champions/>
+							<Shutouts/>
+						</div>
+						<div>
+							<About/>
+						</div>
+
+					</div>
+					<div id="flexend">
+						<Matches/>
+					</div>
+	</div>
 
 	</div>
 </template>
@@ -87,11 +97,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.hmm {
+display: flex;
+width:100%;
+}
 
 .split-flex  {
 display: flex;
 	/* min-width: 100vw; */
 	justify-content: space-between;
+	/* background: red; */
+}
+.split-col  {
+display: flex;
+flex-direction: column;
+}
+#flexend {
+	display: flex;
+	justify-content: flex-end;
+
 }
 
 </style>
