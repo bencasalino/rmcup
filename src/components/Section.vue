@@ -67,11 +67,17 @@ box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
 0px 20px 20px rgba(0,0,0,0.05),
 0px 30px 20px rgba(0,0,0,0.05);
 border-bottom: 2px #9B9487 solid;
+box-sizing: content-box;
+
 }
 
 .btn:hover {
 	color: #333;
 	background: #aaa;
+	border-bottom: 5px #333 solid;
+box-sizing: content-box;
+	text-decoration: none;
+cursor: pointer;
 }
 
 </style>

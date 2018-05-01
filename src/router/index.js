@@ -24,7 +24,7 @@ export default new Router({
       component: Rules
     },
     {
-      path: '/About',
+      path: '/',
       name: 'About',
       component: About
     },
