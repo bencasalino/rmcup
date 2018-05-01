@@ -1,12 +1,4 @@
 <template>
-<!-- <div class="matches">
-<div v-bind:key="match.matches" v-for="match in data.matches" class="test">
-<p class="test">NAME {{ match.id }}</p>
-<p class="test">DATE: {{ match.date }}</p>
-<p class="test">NOME: {{ match.home }}</p>
-<p class="test">AWAY: {{ match.away }}</p>
-<p class="test">SCORE: {{ match.score }}</p>
-<p class="test">SERIES: {{ match.series }}</p> -->
 <table class="zebra">
 <thead>
 <tr>

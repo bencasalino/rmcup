@@ -1,5 +1,6 @@
 <template>
 <div id="mainapp-wrapper">
+	<Bg/>
 <div class="cta-row">
 
 		<router-link :to="{name: 'Matches'}"  class="btn">
@@ -38,10 +39,12 @@ import Goals from '@/components/Goals'
 import Shutouts from '@/components/Shutouts'
 import Matches from '@/components/Matches'
 import Champions from '@/components/Champions'
+import Bg from '@/components/Bg'
 
 export default {
   name: 'App',
   components: {
+		Bg,
 		Goals,
 		Champions,
 		Shutouts,
