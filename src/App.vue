@@ -11,7 +11,7 @@
 							<Shutouts/>
 						</div>
 						<div>
-							<About/>
+							<Section/>
 						</div>
 
 					</div>
@@ -19,33 +19,38 @@
 						<Matches/>
 					</div>
 	</div>
+	<!-- <div>
+		<Section/>
+	</div> -->
 
 	</div>
 </template>
 
 <script>
+// header
+import Bg from '@/components/Bg'
+
+// aside
+import Matches from '@/components/Matches'
+
+// main
+import Champions from '@/components/Champions'
 import Goals from '@/components/Goals'
 import Shutouts from '@/components/Shutouts'
-import Matches from '@/components/Matches'
-import Champions from '@/components/Champions'
-import Bg from '@/components/Bg'
-import SubHeader from '@/components/SubHeader'
-import History from '@/components/History'
-import About from '@/components/About'
+
+// router about links
+
 import Section from '@/components/Section'
 
 export default {
   name: 'App',
   components: {
 		Bg,
-		SubHeader,
 		Goals,
 		Champions,
 		Shutouts,
 		Matches,
-Section,
-About,
-History
+Section
   }
 }
 </script>
