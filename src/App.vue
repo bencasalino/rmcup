@@ -1,36 +1,16 @@
 <template>
-<div id="mainapp-wrapper">
+	<div id="mainapp-wrapper">
 	<Bg/>
-	<div class="split-flex">
-		<SubHeader/>
-				<Matches/>
-	</div>
-	</div>
-
-
-
-
-
-
-
-
-
-
-	<!-- <div class="cta-row">
-	<router-link :to="{name: 'Champions'}"  class="btn">
-	<a> Champions </a>
-	</router-link>
-	<router-link :to="{name: 'Goals'}"  class="btn">
-	<a> Goals  </a>
-	</router-link>
-	<router-link :to="{name: 'Shutouts'}"  class="btn">
-	<a> Shutouts </a>
-	</router-link>
-
+		<div class="split-flex">
+					<SubHeader/><Matches/>
+					<!-- router view -->
+		</div>
+		<div class="split-flex">
+					<Section/>
+					<!-- router view -->
+		</div>
 
 	</div>
-
-</div> -->
 </template>
 
 <script>
@@ -40,6 +20,9 @@ import Matches from '@/components/Matches'
 import Champions from '@/components/Champions'
 import Bg from '@/components/Bg'
 import SubHeader from '@/components/SubHeader'
+import History from '@/components/History'
+import About from '@/components/About'
+import Section from '@/components/Section'
 
 export default {
   name: 'App',
@@ -49,7 +32,10 @@ export default {
 		Goals,
 		Champions,
 		Shutouts,
-		Matches
+		Matches,
+Section,
+About,
+History
   }
 }
 </script>

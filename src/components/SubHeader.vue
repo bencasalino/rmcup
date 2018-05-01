@@ -2,21 +2,23 @@
   <div>
 		<div id="any">
 
-  <router-link :to="{name: 'Champions'}"  class="btn"> Champions
+  <router-link :to="{name: 'Champions'}"  class="btn">
+		 Champions
 	</router-link>
 
 	<router-link :to="{name: 'Goals'}"  class="btn">
 	Goals
 	</router-link>
 
-	<router-link :to="{name: 'Shutouts'}"  class="btn">
+	<!-- <router-link :to="{name: 'SubHeader'}"  class="btn">
 	Shutouts
-	</router-link>
+	</router-link> -->
 		</div>
 
 		<br>
 			<div>
-				<router-view/>
+				<router-view name="wtf"> </router-view>
+								<!-- <router-view> </router-view> -->
 			</div>
 
   </div>
