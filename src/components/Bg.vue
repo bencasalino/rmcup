@@ -1,6 +1,6 @@
 <template>
-  <div>
-          <img class="bg" src="/../../static/blej.svg">
+  <div id="bg">
+<h2>kljfsd</h2>
   </div>
 </template>
 
@@ -11,7 +11,14 @@
 </script>
 
 <style scoped>
-.bg {
-  max-height: 200px;
+#bg {
+  height: 25vh;
+  background: #A4A19B;
+  border-bottom: 10px solid yellow;
+  box-sizing: content-box;
 }
+h2 {
+  color: red;
+}
+
 </style>

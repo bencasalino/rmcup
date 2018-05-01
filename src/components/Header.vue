@@ -81,6 +81,7 @@ font-family: 'Kreon', serif;
   font-size: 2rem;
       color: #fff;
           font-weight: 900;
+          font-family: 'Kreon', serif;
 }
 
 .center {

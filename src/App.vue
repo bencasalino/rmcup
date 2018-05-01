@@ -1,37 +1,36 @@
 <template>
 <div id="mainapp-wrapper">
 	<Bg/>
-<div class="cta-row">
-
-		<router-link :to="{name: 'Matches'}"  class="btn">
-				<a> Matches </a>
-		</router-link>
-				<router-link :to="{name: 'Champions'}"  class="btn">
-				<a> Champions </a>
-		</router-link>
-				<router-link :to="{name: 'Goals'}"  class="btn">
-				<a> Goals  </a>
-		</router-link>
-				<router-link :to="{name: 'Shutouts'}"  class="btn">
-				<a> Shutouts </a>
-		</router-link>
+	<div class="split-flex">
+		<SubHeader/>
+				<Matches/>
+	</div>
+	</div>
 
 
 
 
-		<!-- lsdkflsd -->
-		<br>
-		<br>
-			</div>
-<!-- // router view  -->
-		<div>
-				<router-view/>
-		</div>
-</div>
 
 
 
 
+
+
+	<!-- <div class="cta-row">
+	<router-link :to="{name: 'Champions'}"  class="btn">
+	<a> Champions </a>
+	</router-link>
+	<router-link :to="{name: 'Goals'}"  class="btn">
+	<a> Goals  </a>
+	</router-link>
+	<router-link :to="{name: 'Shutouts'}"  class="btn">
+	<a> Shutouts </a>
+	</router-link>
+
+
+	</div>
+
+</div> -->
 </template>
 
 <script>
@@ -40,11 +39,13 @@ import Shutouts from '@/components/Shutouts'
 import Matches from '@/components/Matches'
 import Champions from '@/components/Champions'
 import Bg from '@/components/Bg'
+import SubHeader from '@/components/SubHeader'
 
 export default {
   name: 'App',
   components: {
 		Bg,
+		SubHeader,
 		Goals,
 		Champions,
 		Shutouts,
@@ -67,6 +68,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	          font-family: 'Kreon', serif;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -100,27 +102,10 @@ table {
 	border-spacing: 0;
 }
 
-
-/* //  */
-
-
-.cta-row  {
+.split-flex  {
 display: flex;
+	/* min-width: 100vw; */
+	justify-content: space-between;
 }
 
-.btn  {
-/* height: 30px; */
-min-width: 25vw;
-max-width: 25vw;
-text-align: center;
-background: red;
-font-size: 12px;
-padding: 10px 2px 10px 2px;
-font-weight: 900;
-text-decoration: none;
-cursor: pointer;
-border: 2px solid blue;
-box-sizing: border-box;
-position: sticky;
-}
 </style>

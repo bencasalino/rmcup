@@ -1,8 +1,10 @@
 <template>
+<div id="matches">
+  		<h1>ALL PAST MATCHES</h1>
 <table class="zebra">
 <thead>
 <tr>
-    <th>NAME</th>
+    <th>#</th>
     <th>DATE</th>
     <th>HOME</th>
     <th>AWAY</th>
@@ -21,6 +23,7 @@
 </tr>
 </tbody>
 </table>
+</div>
 
 
 </template>
@@ -50,14 +53,31 @@ export default {
 }
 </script>
 <style scoped>
+#matches {
+    margin: 5px;
+}
 table {
+  font-family: 'Kreon', serif;
   border-collapse: collapse;
-  width: 50vw;
+  width: 100%;
+            font-weight: 400;
 }
 th, td {
   padding: 0.25rem;
   text-align: left;
   border: 1px solid #ccc;
+  font-size: 12px;
+}
+
+th {
+font-size: 10px;
+color: #222;
+}
+h1 {
+      color: #fff;
+          font-weight: 400;
+          font-family: 'Kreon', serif;
+          text-align: center;
 }
 
 </style>
