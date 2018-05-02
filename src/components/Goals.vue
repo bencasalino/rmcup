@@ -40,8 +40,8 @@
   },
     methods: {
     load () {
-      // fetch('http://rmcup.herokuapp.com/goals')
-            fetch('http://localhost:3000/goals')
+      fetch('http://rmcup.herokuapp.com/goals')
+            // fetch('http://localhost:3000/goals')
         .then(res => res.json())
         .then(data => {
           this.data = data

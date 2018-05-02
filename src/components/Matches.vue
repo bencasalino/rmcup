@@ -42,7 +42,8 @@ export default {
   },
   methods: {
     load () {
-      fetch('http://localhost:3000/matches')
+      fetch('http://rmcup.herokuapp.com/matches')
+      // fetch('http://localhost:3000/matches')
         .then(res => res.json())
         .then(data => {
           this.data = data
