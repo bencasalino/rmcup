@@ -1,5 +1,6 @@
 <template>
 	<div id="mainapp-wrapper">
+		<Header/>
 	<Bg/>
 	<div class="hmm">
 					<div class="split-col">
@@ -23,6 +24,7 @@
 
 <script>
 // header
+import Header from '@/components/Header'
 import Bg from '@/components/Bg'
 
 // aside
@@ -42,6 +44,7 @@ import Footer from '@/components/Footer'
 export default {
   name: 'App',
   components: {
+		Header,
 		Bg,
 		Goals,
 		Champions,
