@@ -9,3 +9,91 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Chivo', sans-serif;
 font-family: 'Kreon', serif;
 font-family: 'Barlow Condensed', sans-serif;
+
+
+
+<div id="bg">
+  <div id="bg-left">
+
+
+<div class="wins-wrapper">
+<img class="m-icon" src="/../../static/m-rsl.svg">
+<br>
+<p> 2007</p>
+  <!-- <p class="goob" >
+    2007
+  </p> -->
+</div>
+<div class="wins-wrapper">
+<img class="m-icon" src="/../../static/m-rsl.svg">
+  <!-- <p class="goob" >
+    2008
+  </p> -->
+</div>
+<div class="wins-wrapper">
+<img class="m-icon" src="/../../static/m-rsl.svg">
+  <!-- <p class="goob" >
+    2009
+  </p> -->
+</div>
+<div class="wins-wrapper">
+<img class="m-icon" src="/../../static/m-rsl.svg">
+  <!-- <p class="goob" >
+    2010
+  </p> -->
+</div>
+<div class="wins-wrapper">
+<img class="m-icon" src="/../../static/m-rsl.svg">
+  <!-- <p class="goob" >
+    2011
+  </p> -->
+</div>
+<div class="wins-wrapper">
+<img class="m-icon" src="/../../static/m-rsl.svg">
+  <!-- <p class="goob" >
+    2012
+  </p> -->
+</div>
+<div class="wins-wrapper">
+<img class="m-icon" src="/../../static/m-rsl.svg">
+  <!-- <p class="goob" >
+    2014
+  </p> -->
+</div>
+<div class="wins-wrapper">
+<img class="m-icon" src="/../../static/m-rsl.svg">
+  <!-- <p class="goob" >
+    2016
+  </p> -->
+</div>
+<div class="wins-wrapper">
+<img class="m-icon" src="/../../static/m-rsl.svg">
+  <!-- <p class="goob" >
+    2017
+  </p> -->
+</div>
+
+
+    </div>
+    <div id="bg-center">
+      <p>center</p>
+      </div>
+    <div id="bg-right">
+                     <p class="wins-wrapper">  <img class="m-icon" src="/../../static/m-col.svg">
+          <span class="goob" > 2015
+          </span>
+          </p>
+                               <p class="wins-wrapper">  <img class="m-icon" src="/../../static/m-col.svg">
+          <span class="goob" > 2013
+          </span>
+          </p>
+                    <p class="wins-wrapper">  <img class="m-icon" src="/../../static/m-col.svg">
+          <span class="goob" > 2006
+          </span>
+          </p>
+                    <p class="wins-wrapper">  <img class="m-icon" src="/../../static/m-col.svg">
+          <span class="goob" > 2005
+          </span>
+          </p>
+    </div>
+  </div>
