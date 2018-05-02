@@ -7,6 +7,7 @@
     </p>
     <br>
     <p class="dont-sue-me">~All logos are copyright of their respective owners.~</p>
+                    <img class="footrr" src="/../../static/duel.svg">
 
   </div>
 </template>
@@ -23,7 +24,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 7vh;
+  height: 10vh;
   color: #222;
   border-top: 4px solid #9B9487;
   background: #A4A19B;
@@ -41,5 +42,11 @@ font-family: 'Chivo', sans-serif;
 }
 a {
   text-decoration: none;
+}
+.footrr {
+  min-height: 30px;
+  min-width: 30px;
+    max-height: 30px;
+  max-width: 30px;
 }
 </style>
