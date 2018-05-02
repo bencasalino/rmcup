@@ -98,12 +98,17 @@ export default {
 
 <style>
 #wrap {
-      border-bottom: .2rem solid #aaa;
+      /* border-bottom: .2rem solid #A4A19B; */
+           box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+0px 10px 20px rgba(0,0,0,0.05),
+0px 20px 20px rgba(0,0,0,0.05),
+0px 30px 20px rgba(0,0,0,0.05);
 }
 
 .header-top {
     padding-top:8px;
-  background: linear-gradient(to right, #B30838 , #862633);
+    background: #A4A19B;
+  /* background: linear-gradient(to right, #B30838 , #862633); */
   height: 10vh;
     justify-content: space-between;
   display: flex;
@@ -129,10 +134,10 @@ flex-direction: column;
 }
 
 .logo {
-  max-height: 2rem;
-  max-width: 2rem;
-    min-height: 2rem;
-  min-width: 2rem;
+  max-height:2.4rem;
+  max-width: 2.4rem;
+    min-height: 2.4rem;
+  min-width: 2.4rem;
 }
 
 .supa {

@@ -3,7 +3,7 @@
 <p class="label"> ABOUT THE CUP</p>
 <br>
 <p>
-<span class="emp">The Rocky Mountain Cup</span> is a soccer trophy contested between <a href=""><img class="icon" src="/../../static/rsl.svg"> Real Salt Lake</a>  and the <a href=""> <img class="icon" src="/../../static/col.svg">Colorado Rapids</a> . The cup is awarded by the <a href="https://en.wikipedia.org/wiki/Rocky_Mountain_Cup#The_Committee_of_10">Committee of 10,</a>
+<span class="emp">The Rocky Mountain Cup</span> is a soccer trophy contested between <a href="https://www.rsl.com/"><img class="icon" src="/../../static/rsl.svg"> Real Salt Lake</a>  and the <a href="https://www.coloradorapids.com"> <img class="icon" src="/../../static/col.svg">Colorado Rapids</a> . The cup is awarded by the <a href="https://en.wikipedia.org/wiki/Rocky_Mountain_Cup#The_Committee_of_10">Committee of 10,</a>
 , a group of bi-partisan fans who run the competition, to the team with the most points in games played between the two.
 <br>
 <br>
@@ -15,7 +15,7 @@ If the teams end the season in a points tie, the team with the most goals on agg
 <br>
 <br>
 <p class="label2"> CUP CREATION</p>
-The Cup was created in 2005, the first year of play for <a href=""> Real Salt Lake</a> in Major League Soccer. When it was officially announced that Salt Lake City would be awarded an MLS expansion club, fans from Utah and Colorado founded the bi-partisan <a href="https://en.wikipedia.org/wiki/Rocky_Mountain_Cup#The_Committee_of_10">Committee of 10,</a> <span class="slant">  (5 supporters from each club) </span> and began to outline the official rules of the competition. The contest was named the <span class="emp"> Rocky Mountain Cup</span>  after a vote from the fans, and a trophy was acquired.
+The Cup was created in 2005, the first year of play for <a href="https://www.rsl.com"> Real Salt Lake</a> in Major League Soccer. When it was officially announced that Salt Lake City would be awarded an MLS expansion club, fans from Utah and Colorado founded the bi-partisan <a href="https://en.wikipedia.org/wiki/Rocky_Mountain_Cup#The_Committee_of_10">Committee of 10,</a> <span class="slant">  (5 supporters from each club) </span> and began to outline the official rules of the competition. The contest was named the <span class="emp"> Rocky Mountain Cup</span>  after a vote from the fans, and a trophy was acquired.
 <br>
 <br>
 <p class="label2"> INAGURAL CUP</p>

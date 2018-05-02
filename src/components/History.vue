@@ -11,15 +11,15 @@
 <br>
 <p class="label2"> FORMATION | C10</p>
 <p>
- <span class="emp"> Committee of 10</span>, or C10, was initially formed through discussions between fans from both <a href=""> Real Salt Lake</a> and the <a href="">Colorado Rapids</a>  on
-<a href="">BigSoccer.com</a>
+ <span class="emp"> Committee of 10</span>, or C10, was initially formed through discussions between fans from both <a href="https://www.rsl.com"> Real Salt Lake</a> and the <a href="https://www.coloradorapids.com">Colorado Rapids</a>  on
+<a href="https://www.bigsoccer.com">BigSoccer.com</a>
 
  and on the now defunct fan forums at
- <a href="">RealSaltLake.org.</a>
- .
-  It was decided that each team's fans would be represented by five individuals per side.
+ <a href="www.realsaltlake.org">RealSaltLake.org</a>.
   <br>
   <br>
+    It was decided that each team's fans would be represented by five individuals per side.
+    <br>
    These representatives would be responsible for creating the guidelines, design, and ultimately raising the funds to create the <span class="emp"> Rocky Mountain Cup</span>
 </p>
 <br><br>

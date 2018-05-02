@@ -20,19 +20,19 @@
   <br>
   <!-- end header -->
   <p>
-<a class="btn-rsl" href="google.com">TEAM WEBSITE</a>
+<a class="btn-rsl" href="https://www.rsl.com">TEAM WEBSITE</a>
 </p>
 
 <p>
 <br>
 <br>
-<a class="btn-rsl" href="google.com">STANDINGS</a>
+<a class="btn-rsl" href="https://www.mlssoccer.com/standings">STANDINGS</a>
 </p>
 
 <p>
 <br>
 <br>
-<a class="btn-rsl" href="google.com">SCHEDULE</a>
+<a class="btn-rsl" href="https://matchcenter.mlssoccer.com/schedule?clubs%5B0%5D=Real%20Salt%20Lake">SCHEDULE</a>
 </p>
 
 <p>
@@ -41,8 +41,8 @@
 <p class="com-rsl"> SUPPORTERS GROUP</p>
 <br>
 
-<a class="btn-rsl" href="google.com">ROYAL ARMY
-38</a>
+<a class="btn-rsl" href="https://www.rsl.com/supporters">ROYAL ARMY
+</a>
 </p>
 </div>
 
@@ -56,19 +56,19 @@
   <br>
   <!-- end header -->
 <p>
-<a class="btn-col" href="google.com">TEAM WEBSITE</a>
+<a class="btn-col" href="https://www.coloradorapids.com">TEAM WEBSITE</a>
 </p>
 
 <p>
 <br>
 <br>
-<a class="btn-col" href="google.com">STANDINGS</a>
+<a class="btn-col" href="https://www.mlssoccer.com/standings">STANDINGS</a>
 </p>
 
 <p>
 <br>
 <br>
-<a class="btn-col" href="google.com">SCHEDULE</a>
+<a class="btn-col" href="https://matchcenter.mlssoccer.com/schedule?clubs%5B0%5D=Colorado%20Rapids">SCHEDULE</a>
 </p>
 
 <p>
@@ -77,7 +77,7 @@
 <p class="com-col"> SUPPORTERS GROUP</p>
 <br>
 
-<a class="btn-col" href="google.com">CENTENNIAL
+<a class="btn-col" href="http://www.c38sg.com/">CENTENNIAL
 38</a>
 </p>
 </div>

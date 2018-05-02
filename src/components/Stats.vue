@@ -31,20 +31,20 @@
 <p>As of 2017, nine players have played for both teams in the <span class="emp"> Rocky Mountain Cup</span>.
   <br>
   <br>
-   This was notably started by a trade between the two teams in 2007, in which Colorado's    <a href="">Kyle Beckerman</a> was traded to Salt Lake for <a href="">Mehdi Ballouchy</a> , both of whom became regular contributors for their new clubs. The trade also corresponded with Salt Lake's control of the <span class="emp"> Rocky Mountain Cup</span> for many years.
+   This was notably started by a trade between the two teams in 2007, in which Colorado's    <a href="https://www.mlssoccer.com/players">Kyle Beckerman</a> was traded to Salt Lake for <a href="https://www.mlssoccer.com/players">Mehdi Ballouchy</a> , both of whom became regular contributors for their new clubs. The trade also corresponded with Salt Lake's control of the <span class="emp"> Rocky Mountain Cup</span> for many years.
      <br>
   <br>
    In addition,
 
-   <a href="">Kyle Beckerman</a>
+   <a href="https://www.mlssoccer.com/players">Kyle Beckerman</a>
 
-   <a href="">Nat Borchers</a>,
-    <a href="">Jeff Cunningham</a>,
-     <a href="">Atiba Harris</a>,
-      <a href="">Richie Kotschau</a>,
-       <a href="">Clint Mathis</a>,
-        <a href="">Chris Wingert</a> &
-         <a href="">Luis Gil</a>, have also faced off on both sides of the rivalry.</p>
+   <a href="https://www.mlssoccer.com/players">Nat Borchers</a>,
+    <a href="https://www.mlssoccer.com/players">Jeff Cunningham</a>,
+     <a href="https://www.mlssoccer.com/players">Atiba Harris</a>,
+      <a href="https://www.mlssoccer.com/players">Richie Kotschau</a>,
+       <a href="https://www.mlssoccer.com/players">Clint Mathis</a>,
+        <a href="https://www.mlssoccer.com/players">Chris Wingert</a> &
+         <a href="https://www.mlssoccer.com/players">Luis Gil</a>, have also faced off on both sides of the rivalry.</p>
   </div>
 </template>
 

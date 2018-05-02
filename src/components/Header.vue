@@ -10,7 +10,7 @@
            <p id="rsl">    <img class="baseicon" src="/../../static/rsl.svg"> REAL SALT LAKE</p>
     </div>
     <div id="mountain-center">
-      <p>center</p>
+      <h3>ROCKY MOUNTAIN CUP </h3>
       </div>
     <div id="mountain-right">
             <p id="colo">COLORADO RAPIDS     <img class="baseicon" src="/../../static/col.svg"></p>
@@ -73,7 +73,9 @@ font-family: 'Kreon', serif;
          border-bottom: 5px #8D9093 solid;
 }
 #mountain-center {
-  background-color: #4D3F3F;
+      padding-top:5px;
+  /* background-color: #4D3F3F; */
+      font-size: 1.5rem;
 
 }
 #colo {
@@ -92,8 +94,12 @@ font-family: 'Kreon', serif;
           font-family: 'Kreon', serif;
 }
 
-.center {
-
+h3 {
+  border-bottom: 4px solid #A4A19B;
+    font-size: 2rem;
+    color: #A4A19B;
+   font-weight: 900;
+          font-family: 'Kreon', serif;
 }
 
  .baseicon {

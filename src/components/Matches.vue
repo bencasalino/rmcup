@@ -57,10 +57,11 @@ export default {
   box-sizing: border-box;
   min-width: 100%;
 border-left:  5px solid #666;
+border-bottom:  5px solid #555;
 padding-left:12px;
 padding-bottom:12px;
 padding-right:12px;
-background: #444;
+	 background: linear-gradient(to bottom,#444 , #333);
 /* margin-left:12px;
 margin-bottom:12px; */
 margin-left:22px;
@@ -68,7 +69,7 @@ margin-left:22px;
 table {
     border-collapse: collapse;
   border: 1px solid #eee;
-  border-bottom: 2px solid #9B9487;
+  border-bottom: 2px solid #444;
   font-family: 'Kreon', serif;
   border-collapse: collapse;
   width: 100%;
@@ -90,7 +91,7 @@ th {
   background: #333;
 font-size: 10px;
 color: #A4A19B;
-  border-bottom: 2px solid #9B9487;
+  border-bottom: 2px solid #eee;
 }
 h1 {
   padding:5px 10px;

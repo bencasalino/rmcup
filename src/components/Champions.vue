@@ -99,7 +99,7 @@ h1 {
           font-weight: 400;
           font-family: 'Kreon', serif;
           text-align: center;
-            padding:5px 10px;
+            padding:10px 10px;
 }
 table tr:hover {
   background: #f4f4f4;

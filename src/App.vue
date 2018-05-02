@@ -85,7 +85,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  background-color: #4D3F3F;
+	 background: linear-gradient(to bottom,#4D3F3F , #9B9487);
+  /* background-color: #4D3F3F; */
   color:#aaa;
 }
 ol, ul {
