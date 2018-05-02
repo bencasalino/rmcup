@@ -3,7 +3,7 @@
 <p class="label"> ABOUT THE CUP</p>
 <br>
 <p>
-<span class="emp">The Rocky Mountain Cup</span> is a soccer trophy contested between <a href=""> Real Salt Lake</a>  and the <a href="">Colorado Rapids</a> . The cup is awarded by the <a href="https://en.wikipedia.org/wiki/Rocky_Mountain_Cup#The_Committee_of_10">Committee of 10,</a>
+<span class="emp">The Rocky Mountain Cup</span> is a soccer trophy contested between <a href=""><img class="icon" src="/../../static/rsl.svg"> Real Salt Lake</a>  and the <a href=""> <img class="icon" src="/../../static/col.svg">Colorado Rapids</a> . The cup is awarded by the <a href="https://en.wikipedia.org/wiki/Rocky_Mountain_Cup#The_Committee_of_10">Committee of 10,</a>
 , a group of bi-partisan fans who run the competition, to the team with the most points in games played between the two.
 <br>
 <br>
@@ -78,6 +78,18 @@ box-sizing: content-box;
 }
  a {
    text-decoration: none;
+ }
+  .icon {
+   /* border-radius: 5px; */
+     /* box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+0px 10px 20px rgba(0,0,0,0.05),
+0px 20px 20px rgba(0,0,0,0.05),
+0px 30px 20px rgba(0,0,0,0.05); */
+max-height: 20px;
+min-height: 10px;
+max-width: 10px;
+min-width: 10px;
+margin-left: 2px;
  }
 
 </style>
